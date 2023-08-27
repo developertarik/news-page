@@ -55,3 +55,33 @@ li:hover{
     border:none;
 width: 200px;
 height: 50px;}
+
+.main-box-1{
+    grid-row-start:1;
+}
+.main-box2{
+    grid-row-start: 2;   
+      margin-right: 100px;
+  
+      
+
+}
+.main-box-3{
+ grid-row-start: 2;
+ 
+ }
+.sidebar{
+    color: white;
+     grid-column-start: 3;
+    grid-row-start:1;
+    margin-left: 300px;
+    background-color: hsl(240, 100%, 5%);
+ 
+    padding: 30px;
+}
+.New{
+    color: hsl(35, 77%, 62%);
+    font-size: 25px}
+.sidebar h2{
+    font-size: 25px;
+}
