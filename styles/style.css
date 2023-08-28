@@ -54,7 +54,10 @@ li:hover{
     background-color: black;
     border:none;
 width: 200px;
-height: 50px;}
+letter-spacing: 5px;
+text-transform: uppercase;
+height: 50px;
+}
 
 .main-box-1{
     grid-row-start:1;
@@ -84,4 +87,13 @@ height: 50px;}
     font-size: 25px}
 .sidebar h2{
     font-size: 25px;
+}
+.footer{
+    display:grid;
+    margin-top: 50px;
+     grid-template-columns: repeat(6,1fr);
+}
+.box h1{
+    color: gray;
+    font-size: 2.5em;
 }
